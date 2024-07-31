@@ -24,3 +24,18 @@ git push origin --delete name - видаляє гілку з сайту github
 git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
 git log - показує історію комітів
 cd gitTutorial - переходимо в папку gitTutorial
+
+
+
+...або створити нове сховище в командному рядку
+echo "# my-notes" >> README.md
+git init
+git додати README.md
+git commit -m "перший коміт"
+Гілка git -M main
+git remote add origin git@github.com:RomanFirtsovych/my-notes.git
+git push -u походження main
+...або виштовхнути існуючий репозиторій з командного рядка
+git remote add origin git@github.com:RomanFirtsovych/my-notes.git
+Гілка git -M main
+git push -u походження main
